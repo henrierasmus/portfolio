@@ -8,7 +8,6 @@ const Projects = () => {
 		if (displayProject === true) {
 			setDisplayProject(false);
 		}
-		console.log(displayProject);
 	};
 
 	let projects = [
