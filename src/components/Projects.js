@@ -4,11 +4,6 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
 	const [displayProject, setDisplayProject] = useState(false);
 
-	const handleProjectCardClick = e => {
-		setDisplayProject(!displayProject);
-		console.log(displayProject);
-	};
-
 	const resetDisplay = () => {
 		if (displayProject === true) {
 			setDisplayProject(false);
@@ -61,13 +56,13 @@ const Projects = () => {
 				<div className='project-cards'>
 					{projects.map(project => (
 						<ProjectCard
-							handleProjectCardClick={handleProjectCardClick}
 							name={project.name}
 							description={project.description}
 							link={project.link}
 							id={project.id}
 							pic={project.pic}
 							displayProject={displayProject}
+							setDisplayProject={setDisplayProject}
 							key={project.id}
 						/>
 					))}

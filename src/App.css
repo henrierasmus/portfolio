@@ -67,6 +67,7 @@
 
 .about-content li {
 	margin-top: 2rem;
+	list-style-type: none;
 }
 
 .paragraph-project-wrapper {
@@ -77,20 +78,29 @@
 }
 
 .contact {
-	height: 100vh;
+	height: 50vh;
 	background-color: #e8e8e8;
 	position: relative;
 }
 
 .contact-inner {
-	display: flex;
 	padding-top: 6%;
 	height: 80%;
 	margin: auto;
 	justify-content: center;
-	text-align: center;
 	color: #222426;
 	background-color: #e8e8e8;
+	padding-left: 2rem;
+	margin-left: 2rem;
+}
+
+.contact-inner h1 {
+	text-align: center;
+}
+
+.contact-inner i {
+	padding: 0.5rem;
+	color: #222426;
 }
 
 .navbar {
@@ -115,8 +125,13 @@
 	list-style-type: none;
 }
 
+.grey {
+	color: #5a5c5a;
+}
+
 .navbar li {
 	padding: 1rem;
+	color: #5a5c5a;
 }
 
 .particles {
@@ -161,7 +176,7 @@
 }
 
 .project {
-	height: 70vh;
+	height: 50vh;
 	width: 60vh;
 	left: 0;
 	right: 0;
@@ -173,6 +188,31 @@
 	margin-left: 30%;
 	background-color: #222426;
 	color: antiquewhite;
+	padding: 2rem;
+}
+
+.project-inner p {
+	padding-bottom: 2rem;
+}
+
+.project-inner a {
+	border: 1px #151617 solid;
+	box-shadow: 0px 0px 4px 4px #151617;
+	margin: 2rem;
+	padding: 1rem;
+	color: antiquewhite;
+	border-radius: 10%;
+}
+
+.no-underline {
+	text-decoration: none;
+}
+
+hr {
+	padding: 0;
+	margin: 0 4rem;
+	color: #222426;
+	border: 1px solid #222426;
 }
 
 @media (max-height: 710px) {

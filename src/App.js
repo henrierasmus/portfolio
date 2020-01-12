@@ -7,15 +7,18 @@ import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {
 	return (
 		<div className='App'>
-			<Particles className='particles' params={particle_config} />
-			<Navbar />
-			<Home />
-			<About />
-			<Contact />
+			<Router>
+				<Particles className='particles' params={particle_config} />
+				<Navbar />
+				<Home />
+				<About />
+				<Contact />
+			</Router>
 		</div>
 	);
 }
