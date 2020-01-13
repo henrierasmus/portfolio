@@ -246,13 +246,13 @@ hr {
 		padding-left: 2rem;
 	}
 	.paragraph-project-wrapper {
-		width: 100%;
+		width: 90%;
 	}
 	.about-inner {
 		padding-left: 0;
 	}
 	.about-content p {
-		width: 80%;
+		width: 100%;
 	}
 	.about-content h2 {
 		padding-left: 2rem;
@@ -264,5 +264,14 @@ hr {
 
 	.navbar h1 {
 		font-size: 20px;
+	}
+
+	.project {
+		width: 60%;
+		height: auto;
+		margin-left: 10%;
+	}
+	.contact-inner {
+		padding: 0;
 	}
 }
