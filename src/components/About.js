@@ -13,13 +13,14 @@ const About = () => {
 							applications using JavaScript, Node and React. I am starting my
 							BSC IT Degree at NWU in February of 2020 to better my programming
 							skills and gain a better understanding of Computer Sciences. My
-							background is from the recruitment and sales industry and I feel
-							that I have grown a lot and picked soft skills that will benefit
-							any organisation I join.
+							background is from the recruitment and sales industry and I have
+							grown a lot and picked soft skills that will benefit any
+							organisation I join.
 						</p>
 						<Projects />
 					</div>
 
+					<h2>Skills</h2>
 					<ul className='skills'>
 						<li>
 							<i className='fab fa-html5'></i> HTML

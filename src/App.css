@@ -220,3 +220,49 @@ hr {
 		height: 100%;
 	}
 }
+
+@media (max-width: 830px) {
+	.project-cards {
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 80vh;
+	}
+	.project-card {
+		width: 20vh;
+		height: 20vh;
+	}
+	.project-card:hover {
+		transform: none;
+	}
+	.about {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+	.about-content {
+		display: block;
+	}
+	.about-content ul {
+		padding-left: 2rem;
+	}
+	.paragraph-project-wrapper {
+		width: 100%;
+	}
+	.about-inner {
+		padding-left: 0;
+	}
+	.about-content p {
+		width: 80%;
+	}
+	.about-content h2 {
+		padding-left: 2rem;
+	}
+
+	.navbar ul {
+		padding-right: 4rem;
+	}
+
+	.navbar h1 {
+		font-size: 20px;
+	}
+}

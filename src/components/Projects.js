@@ -12,7 +12,7 @@ const Projects = () => {
 
 	let projects = [
 		{
-			name: 'dev_connector',
+			name: 'dev connector',
 			pic: '',
 			description:
 				'Socail media application for developers. This is a Tutorial by Traversy Media on Udemy',
