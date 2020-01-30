@@ -31,7 +31,7 @@ const Projects = () => {
 			name: 'Message Board',
 			pic: '',
 			description: 'Small message board in Node',
-			link: 'https://sheltered-savannah-65982.herokuapp.com//',
+			link: 'https://sheltered-savannah-65982.herokuapp.com/',
 			id: 3
 		},
 		{
