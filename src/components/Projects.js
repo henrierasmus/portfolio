@@ -38,6 +38,7 @@ const Projects = () => {
 			name: 'Todo List',
 			pic: '',
 			description: 'Small todo list made with JavaScript.',
+			link: 'https://github.com/henrierasmus/Todo-app',
 			id: 5
 		},
 		{
