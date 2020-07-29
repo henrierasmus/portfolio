@@ -47,7 +47,15 @@ const Projects = () => {
 			description:
 				'An application that simulates 2 dice being rolled, the purpose of the project was to learn state using react.',
 			id: 4
-		}
+		},
+		{
+			name: 'Asteroids Game',
+			pic: '',
+			description: 'The Atari Asteroids game, created with Java as a desktop application. This is one of the final projects for the Java course from MOOC.fi(University of Helsinki).',
+			link: 'https://github.com/henrierasmus/asteroids',
+			id: 6
+		},
+
 	];
 	return (
 		<div className='projects' onClick={() => resetDisplay()}>
